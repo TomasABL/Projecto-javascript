@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container text-center">
+        <div class="row gx-2">
+          <div class="col">
+            <div class="card" style="width: 17rem;">
+                <img src="https://uploads.vibra.co/1/2021/11/sonar-con-billetes.jpg" class="card-img-top" alt="15px">
+                <div class="card-body">
+                  <h5 class="card-title">Consultar saldo</h5>
+                  <button id="botonsaldo" type="submit" class="btn btn-success">Consultar</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 14rem;">
+                <img src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/2014/03/cajerodolares1.jpg" class="card-img-top" alt="15px">
+                <div class="card-body">
+                  <h5 class="card-title">Depositar</h5>
+                  <button id="deposito" type="submit" class="btn btn-success">Depositar monto</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="https://imagenes.heraldo.es/files/og_thumbnail/uploads/imagenes/2021/08/26/una-persona-saca-dinero-de-un-cajero-de-una-entidad-bancaria.jpeg" class="card-img-top" alt="15px">
+                <div class="card-body">
+                  <h5 class="card-title">Retirar</h5>
+                  <button id="retiro" type="submit" class="btn btn-success">Retirar monto</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 11rem;">
+                <img src="https://cdn-icons-png.flaticon.com/512/5797/5797575.png" class="card-img-top" alt="15px">
+                <div class="card-body">
+                  <h5 class="card-title">Salir</h5>
+                  <button id="salir" type="submit" class="btn btn-danger">Cerrar sesión</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+    <div class="input-group mb-3">
+        <input type="number" id="valor" class="form-control" placeholder="Ingresar valor">
+    </div>
+    <div id="saldo_actual">
+        <p>Saldo actual:</p>
+    </div>
+
+    <script src="main2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
